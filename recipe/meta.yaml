@@ -1,5 +1,5 @@
 {% set name = "rainbowlog" %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rainbowlog-{{ version }}.tar.gz
-  sha256: 20eeda543dd6724622cc7a16f286a478b605e948ab263ca220da437cf6d73c5a
+  sha256: 35b3560f54a0fd0dde982b0bc7c5ce75d61ec3de51b72f2b9e921cd2295b2d76
 
 build:
   noarch: python
