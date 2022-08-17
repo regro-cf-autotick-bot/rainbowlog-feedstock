@@ -20,8 +20,8 @@ requirements:
     - python >=3.7
     - poetry-core >=1.0.0
   run:
-    - constyle >=1.0.2,<2.0.0
-    - importlib-metadata >=4.11,<5.0
+    - constyle >=1.0.2
+    - importlib-metadata >=4.11
     - python >=3.7
 
 test:
